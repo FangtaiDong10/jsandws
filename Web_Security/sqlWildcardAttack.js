@@ -55,7 +55,7 @@ const wildCardAttack = (token, ssid) => {
   fetch(url, {
     headers: {
       Cookie: `CSRF_token=${token}; PHPSESSID=${ssid}`,
-      apikey: "f41b4990-c6cc-11ec-95e2-0242ac110002",
+      apikey: "",
     },
   })
     .then((data) => data.json())
