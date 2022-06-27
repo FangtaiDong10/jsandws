@@ -1,0 +1,21 @@
+{
+  "name": "web_security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "attack.js",
+  "type": "module",
+  "dependencies": {
+    "data-uri-to-buffer": "^4.0.0",
+    "fetch-blob": "^3.1.5",
+    "formdata-polyfill": "^4.0.10",
+    "web-streams-polyfill": "^3.2.1",
+    "node-fetch": "^3.2.4",
+    "node-domexception": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fangtai Dong",
+  "license": "ISC"
+}
